@@ -30,7 +30,6 @@ setInterval(
       document.getElementsByClassName("home-name-container")[0].style.backgroundColor = finalColor;
       document.getElementsByClassName("cv-button")[0].style.backgroundColor = finalColor;
       document.getElementsByClassName("cv-button")[1].style.backgroundColor = finalColor;
-      document.getElementsByClassName("button-input")[0].style.backgroundColor = finalColor;
       document.getElementsByClassName("footer-section")[0].style.backgroundColor = finalColor;
 
 
