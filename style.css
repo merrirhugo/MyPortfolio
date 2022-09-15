@@ -598,3 +598,9 @@ float: inline-start;
         font-size: 60px;
     }
 }
+
+@media screen and (max-width: 365px) {
+    .home-name {
+        font-size: 50px;
+    }
+}
