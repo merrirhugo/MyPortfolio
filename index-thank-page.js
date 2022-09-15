@@ -27,27 +27,8 @@ setInterval(
         
       var finalColor = "rgb(" + firstCodeColor + " ," + secondCodeColor + " ," + thirdCodeColor + ")"; 
       document.getElementsByTagName("nav")[0].style.backgroundColor = finalColor;
-      document.getElementsByClassName("home-name-container")[0].style.backgroundColor = finalColor;
-      document.getElementsByClassName("cv-button")[0].style.backgroundColor = finalColor;
-      document.getElementsByClassName("cv-button")[1].style.backgroundColor = finalColor;
-      document.getElementsByClassName("button-input")[0].style.backgroundColor = finalColor;
+      document.getElementsByClassName("thank-page-button")[0].style.backgroundColor = finalColor;
       document.getElementsByClassName("footer-section")[0].style.backgroundColor = finalColor;
 
 
     },50);
-
-
-    var img = document.getElementsByClassName("logo")[0];
-    
-    img.addEventListener("mouseover", myFunction);
-
-    function myFunction() {
-        document.getElementsByClassName("me-img")[0].style.transform = "rotate(20deg)";
-    }
-
-    img.addEventListener("mouseout", myFunction2);
-
-    function myFunction2() {
-        document.getElementsByClassName("me-img")[0].style.transform = "rotate(0deg)";
-    }
-
